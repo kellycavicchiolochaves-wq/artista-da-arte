@@ -1,19 +1,18 @@
 body{
-    color:blue;
-    background: rgb(235, 211, 1);
-    margin: 0%;
-    font-family: "Dancing Script", sans-serif;
+    color: rgb(239, 159, 159);
+    background: rgb(206, 230, 206);
+    margin: 0px;
 }
 
 header{
-    border-bottom: solid 2px pink;
+    border-bottom: solid 2px red;
     padding: 20px;
     font-size: 32px;
-    color: black;
+    color: rgb(31, 38, 240);
 }
 
 section{
-    background: rgb(129, 176, 214);
+    background: green;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -21,29 +20,5 @@ section{
 }
 
 .chamada-texto{
-    margin-right: 5%;
-}
-
-h1{
-    font-size: 40px;
-}
-p{
-    font-size: 20px;
-}
-.categoria-videos{
-    display:flex;
-    overflow: auto;
-    gap: 10px;
-}
-.categoria{
-    padding: 20px;
-    padding-right: 20px;
-}
-.categoria-videos img{
-    opacity: 0.5;
-    height: 200px;
-}
-.categoria-videos img:hover{
-    opacity: 1.0;
-    border: 1px solid rgb(0, 217, 255);
+margin-right: 5%;
 }
