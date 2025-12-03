@@ -1,6 +1,6 @@
 body{
     color:blue;
-    background: navy;
+    background: rgb(235, 211, 1);
     margin: 0%;
     font-family: "Dancing Script", sans-serif;
 }
@@ -20,6 +20,30 @@ section{
     justify-content: center;
 }
 
-.chamada-teto{
+.chamada-texto{
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.categoria-videos{
+    display:flex;
+    overflow: auto;
+    gap: 10px;
+}
+.categoria{
+    padding: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(0, 217, 255);
 }
